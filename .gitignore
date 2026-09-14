@@ -7,16 +7,10 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 /[Mm]emoryCaptures/
-/[Rr]ecordings/
-/Backups/
-/Work/
-*.slnx
 
-
-# Visual Studio / Rider / VSCode
+# Visual Studio / Rider cache
 .vs/
 .idea/
-.vscode/
 *.csproj
 *.unityproj
 *.sln
@@ -40,5 +34,4 @@
 # Builds
 *.apk
 *.aab
-*.unitypackage
 *.app
