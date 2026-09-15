@@ -17,7 +17,7 @@ public class NumberLinePlaygroundWindow : EditorWindow
     {
         EditorGUILayout.Space(10);
         EditorGUILayout.HelpBox(
-            "Duplicates Demo_07 into a new scene and builds the number line, signs, player, and HUD.",
+            "Duplicates Demo_07 into a new scene and builds the whole topic: the number line, origin ring, spheres, the table with its maker, and the popups for Levels 1 to 3 and the quiz.",
             MessageType.Info);
 
         EditorGUILayout.Space(8);
