@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6f59349c13071447b3073205d41c67e, type: 3}
+  m_Name: QuestionBank
+  m_EditorClassIdentifier: Assembly-CSharp::ZeroReturn.QuestionBank
+  questions:
+  - id: S1
+    pool: S
+    prompt: You travelled {path} m in Level 1 and finished at the dock. What was
+      your total displacement?
+    options:
+    - '{path} m'
+    - 0 m
+    - -{path} m
+    - '{sep} m'
+    correct: 1
+    explanation: Your final and initial positions were both zero. Displacement is
+      0 - 0 = 0 m.
+  - id: S2
+    pool: S
+    prompt: Fetching the sphere at x = -{a} m and returning home, what was the path
+      length?
+    options:
+    - '{a} m'
+    - '{twoa} m'
+    - -{a} m
+    - 0 m
+    correct: 1
+    explanation: 'Count both legs: {a} + {a} = {twoa} m.'
+  - id: S3
+    pool: S
+    prompt: Can path length ever be less than the magnitude of displacement?
+    options:
+    - No, never
+    - Yes, on the return leg
+    - Yes, when displacement is negative
+    - Only at the origin
+    correct: 0
+    explanation: 'The route cannot be shorter than the separation of its endpoints:
+      |displacement| <= path length.'
+  - id: S4
+    pool: S
+    prompt: Your odometer reads {p} m. After one more trip to x = -{a} m and back,
+      what does it read?
+    options:
+    - '{p} m'
+    - '{pPlusA} m'
+    - '{pPlus2A} m'
+    - '{pMinus2A} m'
+    correct: 2
+    explanation: The odometer adds {twoa} m for both legs. It never subtracts the
+      return journey.
+  - id: P1
+    pool: P
+    prompt: A sphere sits at x = -{a} m. Which statement is true?
+    options:
+    - It is {a} m from zero, on the negative side
+    - It is -{a} m from zero
+    - Its position is +{a} m
+    - It is closer to zero than a sphere at +{smaller} m
+    correct: 0
+    explanation: Position is signed. Distance from the origin is its non-negative
+      magnitude.
+  - id: P2
+    pool: P
+    prompt: If the reference dock moved from x = 0 to x = +3 m, a sphere at the old
+      x = -5 m would have which position relative to it?
+    options:
+    - -5 m
+    - -8 m
+    - +8 m
+    - -2 m
+    correct: 1
+    explanation: New relative position = -5 - 3 = -8 m.
+  - id: P3
+    pool: P
+    prompt: Which quantity needs a chosen reference point to specify it?
+    options:
+    - Position
+    - Path length
+    - Speed
+    - Mass
+    correct: 0
+    explanation: Position describes where something is relative to an origin.
+  - id: P4
+    pool: P
+    prompt: Two spheres sit at x = -{a} m and x = +{b} m. How far apart are they?
+    options:
+    - '{difference} m'
+    - '{sum} m'
+    - '{b} m'
+    - '{a} m'
+    correct: 1
+    explanation: Across zero, separation is |{b} - (-{a})| = {sum} m.
+  - id: D1
+    pool: D
+    prompt: The bot is docked at zero and must fetch x = +{b} m. Which heading should
+      you set?
+    options:
+    - Positive / right
+    - Negative / left
+    - Either
+    - It depends on the odometer
+    correct: 0
+    explanation: A positive coordinate lies in the positive direction from zero.
+  - id: D2
+    pool: D
+    prompt: The bot moves from x = +6 m to x = +2 m. Its displacement is...
+    options:
+    - +4 m
+    - -4 m
+    - 4 m, with no direction
+    - -8 m
+    correct: 1
+    explanation: Displacement = final - initial = 2 - 6 = -4 m.
+  - id: D3
+    pool: D
+    prompt: Which of these can be negative?
+    options:
+    - Displacement
+    - Path length
+    - The odometer reading
+    - Distance from the origin
+    correct: 0
+    explanation: Displacement carries direction through its sign; the other quantities
+      are magnitudes.
+  - id: D4
+    pool: D
+    prompt: You set a negative heading and moved 5 m in that direction. What was
+      that leg's displacement?
+    options:
+    - +5 m
+    - -5 m
+    - 0 m
+    - 10 m
+    correct: 1
+    explanation: A 5 m move in the negative direction has displacement -5 m.

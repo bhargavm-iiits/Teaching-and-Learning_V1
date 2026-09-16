@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 275454551e560764ab41950fb3c1e0b7, type: 3}
+  m_Name: Concept01
+  m_EditorClassIdentifier: Assembly-CSharp::ZeroReturn.ConceptDefinition
+  id: position-direction-distance
+  title: Position, Direction & Distance
+  explanation: Position tells you where you are relative to zero. Path length adds
+    every metre travelled. Displacement compares your final position with your starting
+    position.
+  syllabus: NCERT Class 11 Physics - Motion in a Straight Line
+  levels:
+  - {fileID: 11400000, guid: 2acfb9a27016c3a45b12e32f4d748a65, type: 2}
+  - {fileID: 11400000, guid: 048e341be1b81a5458ec5afdc08b61b5, type: 2}
+  - {fileID: 11400000, guid: 21889a390b78cab47a0f7144298fafac, type: 2}
+  questions: {fileID: 11400000, guid: 6c0c7885519d87d4e9629fd050b840fe, type: 2}
+  nextConcept: {fileID: 0}

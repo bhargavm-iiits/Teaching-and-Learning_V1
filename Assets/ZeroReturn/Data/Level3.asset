@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b25e375a87ae6eb4e8d8806dde522a21, type: 3}
+  m_Name: Level3
+  m_EditorClassIdentifier: Assembly-CSharp::ZeroReturn.LevelTemplate
+  levelIndex: 2
+  shape: 2
+  modifier: 3
+  exampleCoordinates:
+  - -8
+  - -4
+  - 2
+  - 6
+  exampleSide: 4
+  objective: Fetch four spheres. Pair equal separations to build a square; its required
+    side length is published.
+  lesson: Separation is |a - b|. Equal distances can occur on opposite sides of the
+    origin.
