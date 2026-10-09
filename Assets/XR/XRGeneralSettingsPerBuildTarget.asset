@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2dc886499c26824283350fa532d087d, type: 3}
   m_Name: XRGeneralSettingsPerBuildTarget
   m_EditorClassIdentifier: Unity.XR.Management.Editor::UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
-  Keys: 
-  Values: []
+  Keys: 0100000007000000
+  Values:
+  - {fileID: 11400000, guid: 81833e98d7711044eaf89c9e7f7d8c13, type: 2}
+  - {fileID: 2453976448793546509, guid: 41e755924e6545741ac1d58a95bfa1b2, type: 2}
