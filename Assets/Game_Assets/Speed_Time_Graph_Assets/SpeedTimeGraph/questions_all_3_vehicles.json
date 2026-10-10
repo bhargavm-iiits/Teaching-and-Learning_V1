@@ -1,0 +1,66 @@
+{
+  "gameTitle": "Car, Train & Motorcycle Challenge",
+  "architecture": "All three vehicles are loaded in every gameplay scene. One shared graph drives all three.",
+  "referenceImage": "Assets/Reference/Car_Train_Motorcycle_Reference.png",
+  "vehicles": [
+    {
+      "id": "car",
+      "lane": "road_top"
+    },
+    {
+      "id": "train",
+      "lane": "rail_middle"
+    },
+    {
+      "id": "motorcycle",
+      "lane": "road_bottom"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "scene": "Question01_GraphShape",
+      "title": "Graph Shape",
+      "learningStage": "Explore",
+      "prompt": "Change the graph so all three vehicles speed up, move steadily, then stop inside the 30 m target.",
+      "targetDistanceM": 30,
+      "toleranceM": 2,
+      "finalSpeedMps": 0,
+      "showAreaShading": false,
+      "allowHorizontalPointEditing": false
+    },
+    {
+      "id": 2,
+      "scene": "Question02_AreaDistance",
+      "title": "Area = Distance",
+      "learningStage": "Understand",
+      "prompt": "Adjust the graph so all three vehicles travel 60 m and stop exactly at their targets.",
+      "targetDistanceM": 60,
+      "toleranceM": 1.5,
+      "finalSpeedMps": 0,
+      "showAreaShading": true,
+      "allowHorizontalPointEditing": true
+    },
+    {
+      "id": 3,
+      "scene": "Question03_MotionPuzzle",
+      "title": "Motion Puzzle",
+      "learningStage": "Apply",
+      "prompt": "Design one graph that makes all three vehicles pass the Speed Gate fast, move safely through the Slow Zone, and stop at 50 m.",
+      "targetDistanceM": 50,
+      "toleranceM": 1.5,
+      "finalSpeedMps": 0,
+      "showAreaShading": true,
+      "allowHorizontalPointEditing": true,
+      "speedGate": {
+        "distanceM": 15,
+        "minSpeedMps": 6
+      },
+      "slowZone": {
+        "startM": 30,
+        "endM": 38,
+        "maxSpeedMps": 4
+      }
+    }
+  ]
+}

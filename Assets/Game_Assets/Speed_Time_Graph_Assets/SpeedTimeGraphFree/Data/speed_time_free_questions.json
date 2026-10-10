@@ -1,0 +1,1612 @@
+{
+ "course": {
+  "k": 0.125,
+  "offCourse": 500.0,
+  "stopTolerance": 4.0,
+  "maxTime": 16.0,
+  "maxSpeed": 50.0,
+  "sampleStep": 0.25,
+  "speedTolerance": 1.0,
+  "maxPoints": 10,
+  "maxRunsPerVariant": 3,
+  "vehicles": [
+   "CAR",
+   "TRAIN",
+   "BIKE"
+  ],
+  "vehicleColors": [
+   "#3D9BFF",
+   "#FF4D5A",
+   "#FF9F1A"
+  ],
+  "laneZ": [
+   16.0,
+   8.0,
+   0.0
+  ]
+ },
+ "demo": {
+  "id": "DEMO",
+  "question": 0,
+  "snap": 1.0,
+  "snapV": 2.0,
+  "lanes": [
+   {
+    "vehicle": "Car",
+    "story": "Start at 0 m/s. Speed up to 32 m/s by 4 s. Stay at 32 m/s until 8 s. Slow down and stop at 12 s.",
+    "solution": [
+     {
+      "t": 0.0,
+      "v": 0.0
+     },
+     {
+      "t": 4.0,
+      "v": 32.0
+     },
+     {
+      "t": 8.0,
+      "v": 32.0
+     },
+     {
+      "t": 12.0,
+      "v": 0.0
+     }
+    ],
+    "stop": 256.0,
+    "timeLimit": 16.0,
+    "speedLimit": 48.0,
+    "gateDistance": 0.0,
+    "gateMin": 0.0,
+    "zoneStart": 0.0,
+    "zoneEnd": 0.0,
+    "zoneMax": 0.0
+   },
+   {
+    "vehicle": "Train",
+    "story": "Start at 0 m/s. Speed up to 32 m/s by 4 s. Stay at 32 m/s until 8 s. Slow down and stop at 12 s.",
+    "solution": [
+     {
+      "t": 0.0,
+      "v": 0.0
+     },
+     {
+      "t": 4.0,
+      "v": 32.0
+     },
+     {
+      "t": 8.0,
+      "v": 32.0
+     },
+     {
+      "t": 12.0,
+      "v": 0.0
+     }
+    ],
+    "stop": 256.0,
+    "timeLimit": 16.0,
+    "speedLimit": 48.0,
+    "gateDistance": 0.0,
+    "gateMin": 0.0,
+    "zoneStart": 0.0,
+    "zoneEnd": 0.0,
+    "zoneMax": 0.0
+   },
+   {
+    "vehicle": "Bike",
+    "story": "Start at 0 m/s. Speed up to 32 m/s by 4 s. Stay at 32 m/s until 8 s. Slow down and stop at 12 s.",
+    "solution": [
+     {
+      "t": 0.0,
+      "v": 0.0
+     },
+     {
+      "t": 4.0,
+      "v": 32.0
+     },
+     {
+      "t": 8.0,
+      "v": 32.0
+     },
+     {
+      "t": 12.0,
+      "v": 0.0
+     }
+    ],
+    "stop": 256.0,
+    "timeLimit": 16.0,
+    "speedLimit": 48.0,
+    "gateDistance": 0.0,
+    "gateMin": 0.0,
+    "zoneStart": 0.0,
+    "zoneEnd": 0.0,
+    "zoneMax": 0.0
+   }
+  ],
+  "title": "DEMO · SAME GRAPH, DIFFERENT VEHICLES",
+  "idea": "One graph drives all three vehicles.\nPut points on the hollow rings, then press RUN.",
+  "banner": "Same graph, different vehicles.",
+  "keySentence": "Same graph, same motion: all three stop at 256 m."
+ },
+ "variants": [
+  {
+   "id": "1A",
+   "question": 1,
+   "snap": 1.0,
+   "snapV": 2.0,
+   "lanes": [
+    {
+     "vehicle": "Car",
+     "story": "Start at 0 m/s. Speed up to 32 m/s by 4 s. Stay at 32 m/s until 8 s. Slow down and stop at 12 s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 4.0,
+       "v": 32.0
+      },
+      {
+       "t": 8.0,
+       "v": 32.0
+      },
+      {
+       "t": 12.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 256.0,
+     "timeLimit": 16.0,
+     "speedLimit": 48.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    },
+    {
+     "vehicle": "Train",
+     "story": "Start at 24 m/s. Stay at 24 m/s until 6 s. Slow down and stop at 10 s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 24.0
+      },
+      {
+       "t": 6.0,
+       "v": 24.0
+      },
+      {
+       "t": 10.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 192.0,
+     "timeLimit": 16.0,
+     "speedLimit": 48.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    },
+    {
+     "vehicle": "Bike",
+     "story": "Start at 0 m/s. Speed up to 40 m/s by 2 s. Stay at 40 m/s until 5 s. Slow down and stop at 7 s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 2.0,
+       "v": 40.0
+      },
+      {
+       "t": 5.0,
+       "v": 40.0
+      },
+      {
+       "t": 7.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 200.0,
+     "timeLimit": 16.0,
+     "speedLimit": 48.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    }
+   ],
+   "title": "QUESTION 1 · GRAPH SHAPE",
+   "idea": "Read each question and draw it.\nHigher line = faster.",
+   "banner": "Higher line = faster. Flat = steady. Down = slowing.",
+   "keySentence": "Higher line = faster. Flat = steady. Down = slowing."
+  },
+  {
+   "id": "1B",
+   "question": 1,
+   "snap": 1.0,
+   "snapV": 2.0,
+   "lanes": [
+    {
+     "vehicle": "Car",
+     "story": "Start at 0 m/s. Speed up to 24 m/s by 3 s. Stay at 24 m/s until 9 s. Slow down and stop at 12 s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 3.0,
+       "v": 24.0
+      },
+      {
+       "t": 9.0,
+       "v": 24.0
+      },
+      {
+       "t": 12.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 216.0,
+     "timeLimit": 16.0,
+     "speedLimit": 48.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    },
+    {
+     "vehicle": "Train",
+     "story": "Start at 16 m/s. Speed up to 32 m/s by 4 s. Stay at 32 m/s until 8 s. Slow down and stop at 12 s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 16.0
+      },
+      {
+       "t": 4.0,
+       "v": 32.0
+      },
+      {
+       "t": 8.0,
+       "v": 32.0
+      },
+      {
+       "t": 12.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 288.0,
+     "timeLimit": 16.0,
+     "speedLimit": 48.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    },
+    {
+     "vehicle": "Bike",
+     "story": "Start at 0 m/s. Speed up to 16 m/s by 1 s. Stay at 16 m/s until 6 s. Slow down and stop at 8 s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 1.0,
+       "v": 16.0
+      },
+      {
+       "t": 6.0,
+       "v": 16.0
+      },
+      {
+       "t": 8.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 104.0,
+     "timeLimit": 16.0,
+     "speedLimit": 48.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    }
+   ],
+   "title": "QUESTION 1 · GRAPH SHAPE",
+   "idea": "Read each question and draw it.\nHigher line = faster.",
+   "banner": "Higher line = faster. Flat = steady. Down = slowing.",
+   "keySentence": "Higher line = faster. Flat = steady. Down = slowing."
+  },
+  {
+   "id": "1C",
+   "question": 1,
+   "snap": 1.0,
+   "snapV": 2.0,
+   "lanes": [
+    {
+     "vehicle": "Car",
+     "story": "Start at 16 m/s. Speed up to 40 m/s by 3 s. Stay at 40 m/s until 6 s. Slow down and stop at 10 s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 16.0
+      },
+      {
+       "t": 3.0,
+       "v": 40.0
+      },
+      {
+       "t": 6.0,
+       "v": 40.0
+      },
+      {
+       "t": 10.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 284.0,
+     "timeLimit": 16.0,
+     "speedLimit": 48.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    },
+    {
+     "vehicle": "Train",
+     "story": "Start at 0 m/s. Speed up to 16 m/s by 2 s. Stay at 16 m/s until 14 s. Slow down and stop at 16 s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 2.0,
+       "v": 16.0
+      },
+      {
+       "t": 14.0,
+       "v": 16.0
+      },
+      {
+       "t": 16.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 224.0,
+     "timeLimit": 16.0,
+     "speedLimit": 48.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    },
+    {
+     "vehicle": "Bike",
+     "story": "Start at 0 m/s. Speed up to 36 m/s by 2 s. Stay at 36 m/s until 6 s. Slow down and stop at 8 s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 2.0,
+       "v": 36.0
+      },
+      {
+       "t": 6.0,
+       "v": 36.0
+      },
+      {
+       "t": 8.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 216.0,
+     "timeLimit": 16.0,
+     "speedLimit": 48.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    }
+   ],
+   "title": "QUESTION 1 · GRAPH SHAPE",
+   "idea": "Read each question and draw it.\nHigher line = faster.",
+   "banner": "Higher line = faster. Flat = steady. Down = slowing.",
+   "keySentence": "Higher line = faster. Flat = steady. Down = slowing."
+  },
+  {
+   "id": "1D",
+   "question": 1,
+   "snap": 1.0,
+   "snapV": 2.0,
+   "lanes": [
+    {
+     "vehicle": "Car",
+     "story": "Start at 0 m/s. Speed up to 20 m/s by 2 s. Stay at 20 m/s until 10 s. Slow down and stop at 12 s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 2.0,
+       "v": 20.0
+      },
+      {
+       "t": 10.0,
+       "v": 20.0
+      },
+      {
+       "t": 12.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 200.0,
+     "timeLimit": 16.0,
+     "speedLimit": 48.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    },
+    {
+     "vehicle": "Train",
+     "story": "Start at 32 m/s. Stay at 32 m/s until 8 s. Slow down and stop at 12 s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 32.0
+      },
+      {
+       "t": 8.0,
+       "v": 32.0
+      },
+      {
+       "t": 12.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 320.0,
+     "timeLimit": 16.0,
+     "speedLimit": 48.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    },
+    {
+     "vehicle": "Bike",
+     "story": "Start at 0 m/s. Speed up to 48 m/s by 4 s. Stay at 48 m/s until 5 s. Slow down and stop at 7 s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 4.0,
+       "v": 48.0
+      },
+      {
+       "t": 5.0,
+       "v": 48.0
+      },
+      {
+       "t": 7.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 192.0,
+     "timeLimit": 16.0,
+     "speedLimit": 48.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    }
+   ],
+   "title": "QUESTION 1 · GRAPH SHAPE",
+   "idea": "Read each question and draw it.\nHigher line = faster.",
+   "banner": "Higher line = faster. Flat = steady. Down = slowing.",
+   "keySentence": "Higher line = faster. Flat = steady. Down = slowing."
+  },
+  {
+   "id": "2A",
+   "question": 2,
+   "snap": 1.0,
+   "snapV": 2.0,
+   "lanes": [
+    {
+     "vehicle": "Car",
+     "story": "Speed up at 6 m/s² to 24 m/s. Stay at 24 m/s. Brake at 6 m/s² and stop at 12 s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 4.0,
+       "v": 24.0
+      },
+      {
+       "t": 8.0,
+       "v": 24.0
+      },
+      {
+       "t": 12.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 192.0,
+     "timeLimit": 16.0,
+     "speedLimit": 48.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    },
+    {
+     "vehicle": "Train",
+     "story": "Speed up at 4 m/s² to 24 m/s. Then brake at 4 m/s² and stop at 12 s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 6.0,
+       "v": 24.0
+      },
+      {
+       "t": 12.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 144.0,
+     "timeLimit": 16.0,
+     "speedLimit": 48.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    },
+    {
+     "vehicle": "Bike",
+     "story": "Speed up at 12 m/s² to 24 m/s. Stay at 24 m/s. Brake at 12 m/s² and stop at 12 s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 2.0,
+       "v": 24.0
+      },
+      {
+       "t": 10.0,
+       "v": 24.0
+      },
+      {
+       "t": 12.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 240.0,
+     "timeLimit": 16.0,
+     "speedLimit": 48.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    }
+   ],
+   "title": "QUESTION 2 · SLOPE",
+   "idea": "Slope = acceleration.\nTime to speed up = speed ÷ acceleration (32 ÷ 8 = 4 s).",
+   "banner": "Steeper line = bigger acceleration.",
+   "keySentence": "Same top speed + different slopes → different areas → different stopping points."
+  },
+  {
+   "id": "2B",
+   "question": 2,
+   "snap": 1.0,
+   "snapV": 2.0,
+   "lanes": [
+    {
+     "vehicle": "Car",
+     "story": "Speed up at 8 m/s² to 32 m/s. Stay at 32 m/s. Brake at 8 m/s² and stop at 12 s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 4.0,
+       "v": 32.0
+      },
+      {
+       "t": 8.0,
+       "v": 32.0
+      },
+      {
+       "t": 12.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 256.0,
+     "timeLimit": 16.0,
+     "speedLimit": 48.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    },
+    {
+     "vehicle": "Train",
+     "story": "Speed up at 4 m/s² to 32 m/s. Then brake at 8 m/s² and stop at 12 s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 8.0,
+       "v": 32.0
+      },
+      {
+       "t": 12.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 192.0,
+     "timeLimit": 16.0,
+     "speedLimit": 48.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    },
+    {
+     "vehicle": "Bike",
+     "story": "Speed up at 16 m/s² to 32 m/s. Stay at 32 m/s. Brake at 16 m/s² and stop at 12 s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 2.0,
+       "v": 32.0
+      },
+      {
+       "t": 10.0,
+       "v": 32.0
+      },
+      {
+       "t": 12.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 320.0,
+     "timeLimit": 16.0,
+     "speedLimit": 48.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    }
+   ],
+   "title": "QUESTION 2 · SLOPE",
+   "idea": "Slope = acceleration.\nTime to speed up = speed ÷ acceleration (32 ÷ 8 = 4 s).",
+   "banner": "Steeper line = bigger acceleration.",
+   "keySentence": "Same top speed + different slopes → different areas → different stopping points."
+  },
+  {
+   "id": "2C",
+   "question": 2,
+   "snap": 1.0,
+   "snapV": 2.0,
+   "lanes": [
+    {
+     "vehicle": "Car",
+     "story": "Speed up at 10 m/s² to 20 m/s. Stay at 20 m/s. Brake at 10 m/s² and stop at 10 s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 2.0,
+       "v": 20.0
+      },
+      {
+       "t": 8.0,
+       "v": 20.0
+      },
+      {
+       "t": 10.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 160.0,
+     "timeLimit": 16.0,
+     "speedLimit": 48.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    },
+    {
+     "vehicle": "Train",
+     "story": "Speed up at 4 m/s² to 20 m/s. Then brake at 4 m/s² and stop at 10 s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 5.0,
+       "v": 20.0
+      },
+      {
+       "t": 10.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 100.0,
+     "timeLimit": 16.0,
+     "speedLimit": 48.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    },
+    {
+     "vehicle": "Bike",
+     "story": "Speed up at 20 m/s² to 20 m/s. Stay at 20 m/s. Brake at 20 m/s² and stop at 10 s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 1.0,
+       "v": 20.0
+      },
+      {
+       "t": 9.0,
+       "v": 20.0
+      },
+      {
+       "t": 10.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 180.0,
+     "timeLimit": 16.0,
+     "speedLimit": 48.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    }
+   ],
+   "title": "QUESTION 2 · SLOPE",
+   "idea": "Slope = acceleration.\nTime to speed up = speed ÷ acceleration (32 ÷ 8 = 4 s).",
+   "banner": "Steeper line = bigger acceleration.",
+   "keySentence": "Same top speed + different slopes → different areas → different stopping points."
+  },
+  {
+   "id": "2D",
+   "question": 2,
+   "snap": 1.0,
+   "snapV": 2.0,
+   "lanes": [
+    {
+     "vehicle": "Car",
+     "story": "Speed up at 4 m/s² to 16 m/s. Stay at 16 m/s. Brake at 4 m/s² and stop at 12 s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 4.0,
+       "v": 16.0
+      },
+      {
+       "t": 8.0,
+       "v": 16.0
+      },
+      {
+       "t": 12.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 128.0,
+     "timeLimit": 16.0,
+     "speedLimit": 48.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    },
+    {
+     "vehicle": "Train",
+     "story": "Speed up at 2 m/s² to 16 m/s. Then brake at 4 m/s² and stop at 12 s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 8.0,
+       "v": 16.0
+      },
+      {
+       "t": 12.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 96.0,
+     "timeLimit": 16.0,
+     "speedLimit": 48.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    },
+    {
+     "vehicle": "Bike",
+     "story": "Speed up at 8 m/s² to 16 m/s. Stay at 16 m/s. Brake at 8 m/s² and stop at 12 s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 2.0,
+       "v": 16.0
+      },
+      {
+       "t": 10.0,
+       "v": 16.0
+      },
+      {
+       "t": 12.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 160.0,
+     "timeLimit": 16.0,
+     "speedLimit": 48.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    }
+   ],
+   "title": "QUESTION 2 · SLOPE",
+   "idea": "Slope = acceleration.\nTime to speed up = speed ÷ acceleration (32 ÷ 8 = 4 s).",
+   "banner": "Steeper line = bigger acceleration.",
+   "keySentence": "Same top speed + different slopes → different areas → different stopping points."
+  },
+  {
+   "id": "3A",
+   "question": 3,
+   "snap": 0.5,
+   "snapV": 1.0,
+   "lanes": [
+    {
+     "vehicle": "Car",
+     "story": "Stop at 160 m by 10 s. Never above 32 m/s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 4.0,
+       "v": 32.0
+      },
+      {
+       "t": 5.0,
+       "v": 32.0
+      },
+      {
+       "t": 9.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 160.0,
+     "timeLimit": 10.0,
+     "speedLimit": 32.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    },
+    {
+     "vehicle": "Train",
+     "story": "Stop at 240 m by 12 s. Never above 40 m/s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 4.0,
+       "v": 32.0
+      },
+      {
+       "t": 8.0,
+       "v": 32.0
+      },
+      {
+       "t": 11.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 240.0,
+     "timeLimit": 12.0,
+     "speedLimit": 40.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    },
+    {
+     "vehicle": "Bike",
+     "story": "Stop at 200 m by 12 s. Never above 40 m/s. Gate 60 m: at least 24 m/s. Slow zone 120–152 m: at most 16 m/s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 2.0,
+       "v": 32.0
+      },
+      {
+       "t": 4.0,
+       "v": 32.0
+      },
+      {
+       "t": 5.0,
+       "v": 16.0
+      },
+      {
+       "t": 9.0,
+       "v": 16.0
+      },
+      {
+       "t": 11.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 200.0,
+     "timeLimit": 12.0,
+     "speedLimit": 40.0,
+     "gateDistance": 60.0,
+     "gateMin": 24.0,
+     "zoneStart": 120.0,
+     "zoneEnd": 152.0,
+     "zoneMax": 16.0
+    }
+   ],
+   "title": "QUESTION 3 · AREA",
+   "idea": "Area under the line = distance.\nMake each vehicle stop in its STOP box.",
+   "banner": "Area under the line = distance travelled.",
+   "keySentence": "Area under the line = distance travelled."
+  },
+  {
+   "id": "3B",
+   "question": 3,
+   "snap": 0.5,
+   "snapV": 1.0,
+   "lanes": [
+    {
+     "vehicle": "Car",
+     "story": "Stop at 120 m by 8 s. Never above 24 m/s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 3.0,
+       "v": 24.0
+      },
+      {
+       "t": 5.0,
+       "v": 24.0
+      },
+      {
+       "t": 8.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 120.0,
+     "timeLimit": 8.0,
+     "speedLimit": 24.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    },
+    {
+     "vehicle": "Train",
+     "story": "Stop at 288 m by 14 s. Never above 32 m/s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 4.0,
+       "v": 32.0
+      },
+      {
+       "t": 9.0,
+       "v": 32.0
+      },
+      {
+       "t": 13.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 288.0,
+     "timeLimit": 14.0,
+     "speedLimit": 32.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    },
+    {
+     "vehicle": "Bike",
+     "story": "Stop at 160 m by 12 s. Never above 48 m/s. Gate 48 m: at least 24 m/s. Slow zone 96–128 m: at most 16 m/s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 2.0,
+       "v": 32.0
+      },
+      {
+       "t": 3.0,
+       "v": 32.0
+      },
+      {
+       "t": 4.0,
+       "v": 16.0
+      },
+      {
+       "t": 8.0,
+       "v": 16.0
+      },
+      {
+       "t": 9.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 160.0,
+     "timeLimit": 12.0,
+     "speedLimit": 48.0,
+     "gateDistance": 48.0,
+     "gateMin": 24.0,
+     "zoneStart": 96.0,
+     "zoneEnd": 128.0,
+     "zoneMax": 16.0
+    }
+   ],
+   "title": "QUESTION 3 · AREA",
+   "idea": "Area under the line = distance.\nMake each vehicle stop in its STOP box.",
+   "banner": "Area under the line = distance travelled.",
+   "keySentence": "Area under the line = distance travelled."
+  },
+  {
+   "id": "3C",
+   "question": 3,
+   "snap": 0.5,
+   "snapV": 1.0,
+   "lanes": [
+    {
+     "vehicle": "Car",
+     "story": "Stop at 180 m by 12 s. Never above 24 m/s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 4.0,
+       "v": 24.0
+      },
+      {
+       "t": 8.0,
+       "v": 24.0
+      },
+      {
+       "t": 11.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 180.0,
+     "timeLimit": 12.0,
+     "speedLimit": 24.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    },
+    {
+     "vehicle": "Train",
+     "story": "Stop at 224 m by 14 s. Never above 32 m/s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 4.0,
+       "v": 32.0
+      },
+      {
+       "t": 7.0,
+       "v": 32.0
+      },
+      {
+       "t": 11.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 224.0,
+     "timeLimit": 14.0,
+     "speedLimit": 32.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    },
+    {
+     "vehicle": "Bike",
+     "story": "Stop at 144 m by 14 s. Never above 48 m/s. Gate 40 m: at least 20 m/s. Slow zone 80–120 m: at most 12 m/s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 2.0,
+       "v": 24.0
+      },
+      {
+       "t": 3.0,
+       "v": 24.0
+      },
+      {
+       "t": 4.0,
+       "v": 12.0
+      },
+      {
+       "t": 9.5,
+       "v": 12.0
+      },
+      {
+       "t": 11.5,
+       "v": 0.0
+      }
+     ],
+     "stop": 144.0,
+     "timeLimit": 14.0,
+     "speedLimit": 48.0,
+     "gateDistance": 40.0,
+     "gateMin": 20.0,
+     "zoneStart": 80.0,
+     "zoneEnd": 120.0,
+     "zoneMax": 12.0
+    }
+   ],
+   "title": "QUESTION 3 · AREA",
+   "idea": "Area under the line = distance.\nMake each vehicle stop in its STOP box.",
+   "banner": "Area under the line = distance travelled.",
+   "keySentence": "Area under the line = distance travelled."
+  },
+  {
+   "id": "3D",
+   "question": 3,
+   "snap": 0.5,
+   "snapV": 1.0,
+   "lanes": [
+    {
+     "vehicle": "Car",
+     "story": "Stop at 140 m by 9 s. Never above 28 m/s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 2.0,
+       "v": 28.0
+      },
+      {
+       "t": 4.0,
+       "v": 28.0
+      },
+      {
+       "t": 8.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 140.0,
+     "timeLimit": 9.0,
+     "speedLimit": 28.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    },
+    {
+     "vehicle": "Train",
+     "story": "Stop at 264 m by 14 s. Never above 36 m/s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 4.0,
+       "v": 32.0
+      },
+      {
+       "t": 9.0,
+       "v": 32.0
+      },
+      {
+       "t": 11.5,
+       "v": 0.0
+      }
+     ],
+     "stop": 264.0,
+     "timeLimit": 14.0,
+     "speedLimit": 36.0,
+     "gateDistance": 0.0,
+     "gateMin": 0.0,
+     "zoneStart": 0.0,
+     "zoneEnd": 0.0,
+     "zoneMax": 0.0
+    },
+    {
+     "vehicle": "Bike",
+     "story": "Stop at 176 m by 12 s. Never above 48 m/s. Gate 56 m: at least 28 m/s. Slow zone 104–136 m: at most 16 m/s.",
+     "solution": [
+      {
+       "t": 0.0,
+       "v": 0.0
+      },
+      {
+       "t": 2.0,
+       "v": 32.0
+      },
+      {
+       "t": 3.0,
+       "v": 32.0
+      },
+      {
+       "t": 4.0,
+       "v": 16.0
+      },
+      {
+       "t": 9.0,
+       "v": 16.0
+      },
+      {
+       "t": 10.0,
+       "v": 0.0
+      }
+     ],
+     "stop": 176.0,
+     "timeLimit": 12.0,
+     "speedLimit": 48.0,
+     "gateDistance": 56.0,
+     "gateMin": 28.0,
+     "zoneStart": 104.0,
+     "zoneEnd": 136.0,
+     "zoneMax": 16.0
+    }
+   ],
+   "title": "QUESTION 3 · AREA",
+   "idea": "Area under the line = distance.\nMake each vehicle stop in its STOP box.",
+   "banner": "Area under the line = distance travelled.",
+   "keySentence": "Area under the line = distance travelled."
+  }
+ ],
+ "finalCheck": [
+  {
+   "id": "Q1A",
+   "concept": "SLOPE",
+   "wording": "A",
+   "prompt": "What is the acceleration in the first 4 s?",
+   "explanation": "Slope = Δv ÷ Δt = 48 ÷ 4 = 12 m/s².",
+   "options": [
+    "12 m/s²",
+    "48 m/s²",
+    "192 m/s²",
+    "0.08 m/s²"
+   ],
+   "tags": [
+    "correct",
+    "reads-the-height",
+    "multiplies",
+    "inverts-the-ratio"
+   ],
+   "correct": 0,
+   "a": [
+    {
+     "t": 0.0,
+     "v": 0.0
+    },
+    {
+     "t": 4.0,
+     "v": 48.0
+    },
+    {
+     "t": 8.0,
+     "v": 48.0
+    }
+   ],
+   "b": [],
+   "aVehicle": "",
+   "bVehicle": "",
+   "aLane": 0,
+   "bLane": -1,
+   "routeQuestion": 2
+  },
+  {
+   "id": "Q2A",
+   "concept": "AREA",
+   "wording": "A",
+   "prompt": "What distance does the vehicle travel?",
+   "explanation": "Area = 40×6 + ½×4×40 = 320 m.",
+   "options": [
+    "320 m",
+    "400 m",
+    "240 m",
+    "40 m"
+   ],
+   "tags": [
+    "correct",
+    "whole-rectangle",
+    "ignores-the-triangle",
+    "reads-the-height"
+   ],
+   "correct": 0,
+   "a": [
+    {
+     "t": 0.0,
+     "v": 40.0
+    },
+    {
+     "t": 6.0,
+     "v": 40.0
+    },
+    {
+     "t": 10.0,
+     "v": 0.0
+    }
+   ],
+   "b": [],
+   "aVehicle": "",
+   "bVehicle": "",
+   "aLane": 0,
+   "bLane": -1,
+   "routeQuestion": 3
+  },
+  {
+   "id": "Q3A",
+   "concept": "CROSSING",
+   "wording": "A",
+   "prompt": "The lines cross at 5 s. What is true at 5 s?",
+   "explanation": "At 5 s the car has gone 50 m and the bike 100 m. The car only catches up at 10 s.",
+   "options": [
+    "Same speed",
+    "Same place",
+    "The car overtakes",
+    "Both are at rest"
+   ],
+   "tags": [
+    "correct",
+    "crossing-means-same-place",
+    "crossing-means-overtaking",
+    "crossing-means-rest"
+   ],
+   "correct": 0,
+   "a": [
+    {
+     "t": 0.0,
+     "v": 0.0
+    },
+    {
+     "t": 10.0,
+     "v": 40.0
+    }
+   ],
+   "b": [
+    {
+     "t": 0.0,
+     "v": 20.0
+    },
+    {
+     "t": 10.0,
+     "v": 20.0
+    }
+   ],
+   "aVehicle": "CAR",
+   "bVehicle": "BIKE",
+   "aLane": 0,
+   "bLane": 2,
+   "routeQuestion": 1
+  },
+  {
+   "id": "Q1B",
+   "concept": "SLOPE",
+   "wording": "B",
+   "prompt": "What is the acceleration?",
+   "explanation": "Slope = Δv ÷ Δt = 40 ÷ 5 = 8 m/s².",
+   "options": [
+    "8 m/s²",
+    "40 m/s²",
+    "200 m/s²",
+    "0.13 m/s²"
+   ],
+   "tags": [
+    "correct",
+    "reads-the-height",
+    "multiplies",
+    "inverts-the-ratio"
+   ],
+   "correct": 0,
+   "a": [
+    {
+     "t": 0.0,
+     "v": 0.0
+    },
+    {
+     "t": 5.0,
+     "v": 40.0
+    }
+   ],
+   "b": [],
+   "aVehicle": "",
+   "bVehicle": "",
+   "aLane": 0,
+   "bLane": -1,
+   "routeQuestion": 2
+  },
+  {
+   "id": "Q2B",
+   "concept": "AREA",
+   "wording": "B",
+   "prompt": "What distance does the vehicle travel?",
+   "explanation": "Area = 32×5 + ½×4×32 = 224 m.",
+   "options": [
+    "224 m",
+    "288 m",
+    "160 m",
+    "32 m"
+   ],
+   "tags": [
+    "correct",
+    "whole-rectangle",
+    "ignores-the-triangle",
+    "reads-the-height"
+   ],
+   "correct": 0,
+   "a": [
+    {
+     "t": 0.0,
+     "v": 32.0
+    },
+    {
+     "t": 5.0,
+     "v": 32.0
+    },
+    {
+     "t": 9.0,
+     "v": 0.0
+    }
+   ],
+   "b": [],
+   "aVehicle": "",
+   "bVehicle": "",
+   "aLane": 0,
+   "bLane": -1,
+   "routeQuestion": 3
+  },
+  {
+   "id": "Q3B",
+   "concept": "CROSSING",
+   "wording": "B",
+   "prompt": "The lines cross at 6 s. What is true at 6 s?",
+   "explanation": "At 6 s the car has gone 72 m and the train 144 m. The car only catches up at 12 s.",
+   "options": [
+    "Same speed",
+    "Same place",
+    "The car overtakes",
+    "Both are at rest"
+   ],
+   "tags": [
+    "correct",
+    "crossing-means-same-place",
+    "crossing-means-overtaking",
+    "crossing-means-rest"
+   ],
+   "correct": 0,
+   "a": [
+    {
+     "t": 0.0,
+     "v": 0.0
+    },
+    {
+     "t": 12.0,
+     "v": 48.0
+    }
+   ],
+   "b": [
+    {
+     "t": 0.0,
+     "v": 24.0
+    },
+    {
+     "t": 12.0,
+     "v": 24.0
+    }
+   ],
+   "aVehicle": "CAR",
+   "bVehicle": "TRAIN",
+   "aLane": 0,
+   "bLane": 1,
+   "routeQuestion": 1
+  }
+ ]
+}

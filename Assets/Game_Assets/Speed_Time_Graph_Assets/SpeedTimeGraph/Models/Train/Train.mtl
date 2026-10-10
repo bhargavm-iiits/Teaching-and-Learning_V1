@@ -1,0 +1,141 @@
+newmtl material_0
+Kd 0.00719337 0.00719337 0.00719337
+d 1.0
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_1
+Kd 0.0544803 0.0528607 0.0528607
+d 1.0
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_2
+Kd 0.148314 0.0 0.00070764
+d 1.0
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_3
+Kd 0.701102 0.64448 0.545725
+d 1.0
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_4
+Kd 0.5351746365495316 0.5351746365495316 0.5351746365495316
+d 1.0
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_5
+Kd 0.8 0.0 0.00188651
+d 1.0
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_6
+Kd 0.8 0.382699 0.0
+d 1.0
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_7
+Kd 1.0 1.0 1.0
+d 0.0625118754
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_8
+Kd 1 1 1
+d 1
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_9
+Kd 0.8 0.304908 0.0217007
+d 1.0
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_10
+Kd 0.0 0.0 0.0
+d 1.0
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_11
+Kd 1 1 1
+d 1
+Ks 0.15 0.15 0.15
+Ns 40
+map_Kd image_0.jpg
+newmtl material_12
+Kd 0.257173 0.227683 0.183105
+d 1.0
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_13
+Kd 0.428691 0.391572 0.332452
+d 1.0
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_14
+Kd 0.447983 0.0 0.00117566
+d 1.0
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_15
+Kd 0.447983 0.0 0.00117566
+d 1.0
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_16
+Kd 0.701102 0.64448 0.545725
+d 1.0
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_17
+Kd 0.8 0.8 0.8
+d 0.1962758883
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_18
+Kd 0.0122038 0.00573915 0.0
+d 1.0
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_19
+Kd 0.8 0.100204 0.0
+d 1.0
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_20
+Kd 0.8 0.450043 0.109006
+d 1.0
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_21
+Kd 0.06682 0.154381 0.8
+d 1.0
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_22
+Kd 0.8 0.8 0.8
+d 1.0
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_23
+Kd 0.178606 0.178606 0.178606
+d 1.0
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_24
+Kd 1.0 0.911959 0.742803
+d 1.0
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_25
+Kd 0.701102 0.64448 0.545725
+d 1.0
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_26
+Kd 0.570476 0.570476 0.570476
+d 1.0
+Ks 0.15 0.15 0.15
+Ns 40
+newmtl material_27
+Kd 0.148314 0.0 0.00070764
+d 1.0
+Ks 0.15 0.15 0.15
+Ns 40
